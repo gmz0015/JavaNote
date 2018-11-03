@@ -1,8 +1,13 @@
 This means that these variables and methods are associated with the class, and not with individual objects.
 
+(1)
 An object of the class does not need to be created in order to access static instance fields (sometimes
 called class fields) or to run static methods (sometimes called class methods).
 
 If in Circle class with "public static int area() {...}", another class can run this method by "Circle.area()".
 If in Circle class with "public int area() {...}", another calss cannot run this method by "Circle.area()". 
     The other method can only access the "area" method by create the object with "Circle demo = new Circle(); demo.area();".
+
+(2)
+static{...}
+The static method will be only run one time.
