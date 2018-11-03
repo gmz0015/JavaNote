@@ -1,0 +1,7 @@
+The difference between Interfaces and Abstract classes
+
+
+In Interfaces, we're not allowed to implement a new method within the interface.
+
+However, in Abstract class, we can directly implement a new method within the abstract class. 
+    And the subclasses do not need to creat this method unless they want to override it.
